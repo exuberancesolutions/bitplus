@@ -1,0 +1,100 @@
+.memberOptions>div>a>i {
+font-size: 80px;
+}
+.memberOptions>div>a{
+	height:160px;
+	width: 100%;
+}
+.memberOptions>div{
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.navbar-nav>li{
+	padding: 5px;
+}
+.profileOption{
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+.paymentpending,.deactivateduser{
+	background-color: red;
+	color: white;
+}
+.paymentdone,.activateduser{
+	background-color: green;
+	color: white;
+}
+.memberonlyuser{
+	background-color: grey;
+
+}
+.adminuser{
+	background-color: blue;
+	color: white;
+}
+
+=================
+   Member Tree
+=================
+.managing{
+	margin: auto;
+}
+.treetable tr th{
+	padding-bottom:20px;
+	padding-left: 32px;
+	padding-right: 32px;
+	/*border: 2px red solid;*/
+}
+
+.treetable tr th i{
+	font-size: 25px;
+	margin: auto;
+	padding-bottom: 20px;
+	padding-top: 2px;
+}
+.treetable tr th p{
+	font-size: 10px;
+}
+.treetable tr th a:link{
+	font-size: 10px;
+	display: inline-block;
+	white-space:nowrap;
+    overflow:hidden;
+    color: blue;
+}
+.treetable tr th a:visited{
+	font-size: 10px;
+	display: inline-block;
+	white-space:nowrap;
+    overflow:hidden;
+    color: red;
+
+}
+.treetable tr th a:active{
+	font-size: 10px;
+	display: inline-block;
+	white-space:nowrap;
+    overflow:hidden;
+    color: green;
+}
+.treetable tr th a:hover{
+	font-size: 10px;
+	display: inline-block;
+	white-space:nowrap;
+    overflow:hidden;
+    color: green;
+}
+.treetable tr th a i{
+	font-size: 10px;
+	padding-top: 10px;
+	color: green;
+}
+/*.parent{
+	border-top: 2px red solid;
+}*/
+.usergreen{
+	color: green;
+}

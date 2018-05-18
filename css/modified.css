@@ -1,0 +1,127 @@
+body{
+  font-family: "Times New Roman", Times, serif;
+  font-size: .9em;
+}
+#mainNav .navbar-brand {
+    color: #fed136;
+    font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,cursive;
+}
+#mainNav {
+    background-color: #212529;
+}
+
+.bgservices{
+  background-image: url("../img/header-bg.jpg");
+  width: 100%;
+  height: 100%
+  opacity:.5;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -75px 0 0 -75px;
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 14px solid #F1C503;
+  border-bottom: 14px solid #F1C503;
+  width: 130px;
+  height: 130px;
+  -webkit-animation: spin 1s ease-in infinite;
+  animation: spin 1s ease-in infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.intro-heading, .intro-lead-in{
+  color:#0f0f0f ;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+.intro-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.footer-top{
+  background-color: #212529;
+  color: white;
+}
+
+
+
+
+
+====================
+    Pop up Windows
+====================
+#ac-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(255,255,255,.6);
+z-index: 1001;
+}
+#popup{
+width: 555px;
+height: 375px;
+background: #FFFFFF;
+border: 5px solid #000;
+border-radius: 25px;
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+box-shadow: #64686e 0px 0px 3px 3px;
+-moz-box-shadow: #64686e 0px 0px 3px 3px;
+-webkit-box-shadow: #64686e 0px 0px 3px 3px;
+position: relative;
+top: 150px; left: 375px;
+}
+
+=================
+   index page
+=================
+
+.no-pad col-sm-3{
+	padding-left:0px;
+}
+
+=================
+   news Section
+=================

@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+.header_content{
+	height: 30px;
+	background-color: white;
+}
+.body_content{
+	height:400px;
+}
+
+.ESPLmodernfooterrow1{
+	background-color: #2d2d2d;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.ESPLmodernfooterrow1>div>h5{
+	text-transform: uppercase;
+	padding-top: 55px;
+	font-weight: bold;
+}
+.ESPLmodernfooterrow1 hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid grey;
+    margin-left: 30px;
+    margin-right: : 30px;
+}
+
+
+.ESPLmodernfooterrow2{
+	background-color: #373737;
+	color: white;
+	font-size: 8px;
+}
+.ESPLmodernfooterrow2>ul{
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+.ESPLmodernfooterrow2>ul>li{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+.ESPLmodernfooterrow2>ul>li>a:hover{
+text-decoration: none;
+}
+.footercopyright{
+	float: right;
+}
+.usefulllink{
+	text-align: left;
+	margin-left: 50px;
+}
+.usefulllink>li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style: none;
+}
+/*@keyframes example {
+    from {}
+    to {margin-left: 5px;
+		color: #7ad530;
+		}
+}*/
+.usefulllink>li>a:hover{
+	text-decoration: none;
+	animation-name: example;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+	
+}
+.collogo{
+	color: grey;
+	text-align:left;
+	margin-left: 35px;
+}
+.collogo>li{
+	list-style: none;
+	padding: 3px;
+}
+#lastul{
+	margin-bottom: 45px;
+}
+#namelogo{
+	margin-top: 59px;
+	padding-bottom: 0px;
+}
+.clearall{
+	padding-top: 0px;
+	margin-top: -65px;
+} 
+.socialbar>li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 2px;
+	float: left;
+	clear: all;
+}
+.twittereffect>a>span>i:hover{
+	color: red;
+}
+.facebookeffect>a>span>i:hover{
+	color: green;
+}
+.linkedineffect>a>span>i:hover{
+	color: yellow;
+}
+.googleeffect>a>span>i:hover{
+	color: blue;
+}
+.instagrameffect>a>span>i:hover{
+	color: gold;
+}
+.icononfooter {
+    margin-left: -70px;
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin-top: -3px;
+}
+.githubeffect>a>span>i:hover{
+	color: white;
+}
+.fa-inverse {
+    color: grey;
+}
+

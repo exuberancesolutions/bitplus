@@ -1,0 +1,10 @@
+User table add
+team earning -> business value
+pan number
+pan copy
+aadhar number
+aadhar copy
+
+INVESTMENT TABEL
+pv/total price 
+investment total (same as in balance table)
